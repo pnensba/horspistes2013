@@ -1,5 +1,15 @@
-__pycache__/gui_text_tk.cpython-32.pyc
-gui_text_tk.pyc
-vsosc/__pycache__/OSC3.cpython-32.pyc
-vsosc/__pycache__/OSC_interface.cpython-32.pyc
-vsosc/__pycache__/__init__.cpython-32.pyc
+__pycache__/*
+
+*.pyc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
