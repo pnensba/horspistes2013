@@ -27,6 +27,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gui_text_tk.py",
+			"settings":
+			{
+				"buffer_size": 3100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "surtitre.py",
+			"settings":
+			{
+				"buffer_size": 1111,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -136,6 +152,11 @@
 	},
 	"file_history":
 	[
+		"/data/git/esonoclaste/esonoclaste.sublime-project",
+		"/data/pngit/horspistes2013/hp2013.sublime-project",
+		"/data/vrx/ordi/bascule_vers_user.txt",
+		"/Users/vincent/Library/Services/bascule vers vincent.workflow/Contents/document.wflow",
+		"/data/git/idia/borg.py",
 		"/data/git/vrac/javascript/010b.js",
 		"/data/git/vrac/javascript/010.css",
 		"/data/git/vrac/javascript/010_minimal_css_js_avec_fichiers_externes.html",
@@ -171,7 +192,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -182,6 +203,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"save",
+			"\\t\\t",
+			"Scrollbar",
+			"tkfont",
+			"tkinter",
+			"borg",
 			"colon",
 			"body",
 			">\n",
@@ -211,6 +238,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\t\nbouton2\nbouton2",
 			"bouton2\nbouton2\nbouton2"
 		],
 		"reverse": false,
@@ -222,13 +250,71 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "gui_text_tk.py",
+					"settings":
+					{
+						"buffer_size": 3100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								70
+							],
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false,
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "surtitre.py",
+					"settings":
+					{
+						"buffer_size": 1111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -249,12 +335,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -265,7 +345,6 @@
 		"rows":
 		[
 			0.0,
-			0.482057416268,
 			1.0
 		]
 	},
@@ -296,13 +375,17 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/data/git/esonoclaste/esonoclaste.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 159.0,
 	"status_bar_visible": true
 }
