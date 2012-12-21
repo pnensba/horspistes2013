@@ -266,7 +266,10 @@
 								<string>E4B69B4A0A3A1720003C02F2</string>
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>E4EEC9E9138DF44700A80321</string>
-								<string>BB4B014C10F69532006C3DED</string>
+								<string>E45BE5980E8CC70C009D7055</string>
+								<string>BBAB23CA13894EDB00AA2426</string>
+								<string>BBAB23BE13894E4700AA2426</string>
+								<string>BBAB23C913894ECA00AA2426</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
 							</array>
@@ -279,7 +282,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {236, 733}}</string>
+							<string>{{0, 0}, {236, 577}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -291,14 +294,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {253, 751}}</string>
+						<string>{{0, 0}, {253, 595}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>236</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>122 85 1265 792 0 0 1440 878 </string>
+						<string>11 234 784 636 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -328,12 +331,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BF61CCE61683E2B200C8D801</string>
+										<string>BF61CD6516844E1900C8D801</string>
 										<key>history</key>
 										<array>
 											<string>BF61CCE31683E2B200C8D801</string>
-											<string>BF61CCE41683E2B200C8D801</string>
-											<string>BF61CCE51683E2B200C8D801</string>
+											<string>BF61CD6316844DF000C8D801</string>
+											<string>BF61CD5916844D5200C8D801</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,14 +348,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1007, 462}}</string>
+								<string>{{0, 0}, {526, 411}}</string>
 								<key>RubberWindowFrame</key>
-								<string>122 85 1265 792 0 0 1440 878 </string>
+								<string>11 234 784 636 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>462pt</string>
+							<string>411pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -365,18 +368,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 467}, {1007, 284}}</string>
+								<string>{{0, 416}, {526, 179}}</string>
 								<key>RubberWindowFrame</key>
-								<string>122 85 1265 792 0 0 1440 878 </string>
+								<string>11 234 784 636 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>284pt</string>
+							<string>179pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1007pt</string>
+					<string>526pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -531,7 +534,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BF61CCE91683E2B200C8D801</string>
+		<string>BF61CD6616844E1900C8D801</string>
 		<string>BF61CCEA1683E2B200C8D801</string>
 		<string>BF61CCEB1683E2B200C8D801</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -540,7 +543,7 @@
 		<string>/data/of73/apps/horspistes2013/surtitre/surtitre.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>122 85 1265 792 0 0 1440 878 </string>
+	<string>11 234 784 636 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

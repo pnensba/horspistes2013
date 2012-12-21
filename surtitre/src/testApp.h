@@ -1,11 +1,10 @@
 #ifndef _TEST_APP
 #define _TEST_APP
 
-
 #include "ofMain.h"
 #include "ofxOsc.h"
 #include "ofxTrueTypeFontUC.h"
-//#include "ofxSyphon.h"
+#include "ofxSyphon.h"
 
 // listen on port 9001
 #define PORT 9001
@@ -27,10 +26,14 @@ public:
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
 	
-
 	ofxTrueTypeFontUC font;
 	ofxOscReceiver receiver;
 	string msg;
+	
+	ofTexture tex;
+	ofxSyphonServer mainOutputSyphonServer;
+	ofxSyphonServer individualTextureSyphonServer;
+	ofxSyphonClient mClient;
 	
 };
 

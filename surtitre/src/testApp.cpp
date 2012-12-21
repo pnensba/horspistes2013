@@ -3,8 +3,13 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	receiver.setup(PORT);
+	
 	// font.loadFont("../../src/font1550.ttf", 20, true);
 	font.loadFont("../../src/fontmono.ttf", 20, true);	
+
+	mainOutputSyphonServer.setName("Screen Output");
+	individualTextureSyphonServer.setName("Texture Output");	
+
 	ofBackground(30);
 }
 
@@ -24,6 +29,9 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
 	font.drawString(msg+" é", 50,50);
+	
+	mainOutputSyphonServer.publishScreen();
+//    individualTextureSyphonServer.publishTexture(&tex);
 }
 	
 	
