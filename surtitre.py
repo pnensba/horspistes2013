@@ -15,8 +15,9 @@ class Surtitre(gui_text_tk.Text_tk):
 
 	def keyb_pressed(self):
 		l = self.get_line()
-		print (l)
-		vsender.send('/osc',l)
+		#print (l.encode('unicode-escape').tobytes)
+		msg = l.encode('unicode-escape').decode('ascii')
+		vsender.send('/osc',msg)
 
 	def save(self, event=None):
 		txt = self.get('1.0',Tkinter.END)

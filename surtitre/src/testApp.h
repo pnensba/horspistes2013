@@ -5,6 +5,9 @@
 #include "ofxOsc.h"
 #include "ofxTrueTypeFontUC.h"
 #include "ofxSyphon.h"
+extern "C" {
+	#include "utf8.h"
+}
 
 // listen on port 9001
 #define PORT 9001
@@ -29,7 +32,8 @@ public:
 	ofxTrueTypeFontUC font;
 	ofxOscReceiver receiver;
 	string msg;
-	
+	char buf[255];
+
 	ofTexture tex;
 	ofxSyphonServer mainOutputSyphonServer;
 	ofxSyphonServer individualTextureSyphonServer;

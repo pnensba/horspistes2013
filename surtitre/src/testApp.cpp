@@ -5,11 +5,13 @@ void testApp::setup(){
 	receiver.setup(PORT);
 	
 	// font.loadFont("../../src/font1550.ttf", 20, true);
-	font.loadFont("../../src/fontmono.ttf", 20, true);	
+	font.loadFont("../../src/arialbd.ttf", 32, true);	
+	//font.loadFont("../../src/fenwick.ttf", 32, true);	
 
 	mainOutputSyphonServer.setName("Screen Output");
-	individualTextureSyphonServer.setName("Texture Output");	
+	//individualTextureSyphonServer.setName("Texture Output");	
 
+	ofSetFrameRate(10);
 	ofBackground(30);
 }
 
@@ -22,14 +24,23 @@ void testApp::update(){
 		receiver.getNextMessage(&m);
 		// unrecognized message: display on the bottom of the screen
 		msg = m.getArgAsString(0);
+		char punt[255];
+		std::strcpy(punt, msg.c_str());
+		u8_unescape(buf,255,punt);
+		msg.assign(buf);
 	}
 }
 
 
 //--------------------------------------------------------------
 void testApp::draw(){
-	font.drawString(msg+" é", 50,50);
+	ofScale(1.1,1.1,1);
+	ofSetHexColor(0xff0000);
+	font.drawString(msg,50,50);
+	ofSetHexColor(0xfffa04);
+	font.drawString(msg, 50,50);
 	
+
 	mainOutputSyphonServer.publishScreen();
 //    individualTextureSyphonServer.publishTexture(&tex);
 }
