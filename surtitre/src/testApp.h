@@ -31,14 +31,11 @@ public:
 	
 	ofxTrueTypeFontUC font;
 	ofxOscReceiver receiver;
+	vector <string> lines;
 	string msg;
-	char buf[255];
+	char buf[255], punt[255];
 
-	ofTexture tex;
 	ofxSyphonServer mainOutputSyphonServer;
-	ofxSyphonServer individualTextureSyphonServer;
-	ofxSyphonClient mClient;
-	
 };
 
 #endif

@@ -4,6 +4,7 @@ import gui_text_tk
 try: import Tkinter
 except: import tkinter as Tkinter
 import vsosc
+import textwrap
 
 class Surtitre(gui_text_tk.Text_tk):
 	def __init__(self, tkroot):
@@ -16,8 +17,10 @@ class Surtitre(gui_text_tk.Text_tk):
 	def keyb_pressed(self):
 		l = self.get_line()
 		#print (l.encode('unicode-escape').tobytes)
-		msg = l.encode('unicode-escape').decode('ascii')
-		vsender.send('/osc',msg)
+		ls = textwrap.wrap(l,50, break_on_hyphens=False)
+		for i in range(len(ls)):
+			ls[i] = ls[i].encode('unicode-escape').decode('ascii')
+		vsender.send('/osc',ls)
 
 	def save(self, event=None):
 		txt = self.get('1.0',Tkinter.END)
