@@ -28,18 +28,18 @@
 	"buffers":
 	[
 		{
-			"file": "gui_text_tk.py",
+			"file": "surtitre/src/testApp.cpp",
 			"settings":
 			{
-				"buffer_size": 3100,
+				"buffer_size": 2245,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "surtitre.py",
+			"file": "surtitre/src/testApp.h",
 			"settings":
 			{
-				"buffer_size": 1111,
+				"buffer_size": 860,
 				"line_ending": "Unix"
 			}
 		}
@@ -47,7 +47,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -135,7 +135,7 @@
 				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 593.0
+		"width": 404.0
 	},
 	"console":
 	{
@@ -152,6 +152,17 @@
 	},
 	"file_history":
 	[
+		"/data/pngit/horspistes2013/surtitre.py",
+		"/Users/vrx/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/data/pngit/horspistes2013/.gitignore",
+		"/data/of73/apps/horspistes2013/surtitre/src/utf8.c",
+		"/data/of73/apps/horspistes2013/surtitre/src/testApp.cpp",
+		"/data/of73/apps/horspistes2013/surtitre/src/utf8.h",
+		"/data/of73/apps/horspistes2013/surtitre/src/testApp.h",
+		"/data/of73/apps/horspistes2013/surtitre/src/main.cpp",
+		"/data/of73/apps/horspistes2013/gui_text_tk.py",
+		"/data/of73/apps/horspistes2013/surtitre.py",
+		"/data/pngit/horspistes2013/gui_text_tk.py",
 		"/data/git/esonoclaste/esonoclaste.sublime-project",
 		"/data/pngit/horspistes2013/hp2013.sublime-project",
 		"/data/vrx/ordi/bascule_vers_user.txt",
@@ -192,7 +203,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -203,6 +214,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"u8_esca",
 			"save",
 			"\\t\\t",
 			"Scrollbar",
@@ -250,36 +262,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "gui_text_tk.py",
+					"file": "surtitre/src/testApp.cpp",
 					"settings":
 					{
-						"buffer_size": 3100,
+						"buffer_size": 2245,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								56,
-								56
+								573,
+								881
 							]
 						],
 						"settings":
 						{
-							"rulers":
-							[
-								70
-							],
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false,
-							"wrap_width": 0
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -289,24 +294,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "surtitre.py",
+					"file": "surtitre/src/testApp.h",
 					"settings":
 					{
-						"buffer_size": 1111,
+						"buffer_size": 860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								370,
-								370
+								189,
+								206
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -377,7 +381,7 @@
 		[
 			[
 				"",
-				"/data/git/esonoclaste/esonoclaste.sublime-project"
+				"/data/of73/apps/ofxvrx/esonoplayer/esonoplayer.sublime-project"
 			]
 		],
 		"width": 380.0

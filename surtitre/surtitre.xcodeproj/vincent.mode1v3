@@ -328,6 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
+<<<<<<< HEAD
 										<string>BF9CA8FE168B5D700071D404</string>
 										<key>history</key>
 										<array>
@@ -337,6 +338,16 @@
 											<string>BF9CA8D4168B5D110071D404</string>
 											<string>BF9CA8D5168B5D110071D404</string>
 											<string>BF9CA8D6168B5D110071D404</string>
+=======
+										<string>BF17EB20168B5C6D003FF051</string>
+										<key>history</key>
+										<array>
+											<string>BF9799241686668400079A49</string>
+											<string>BF9799251686668400079A49</string>
+											<string>BF9799261686668400079A49</string>
+											<string>BF17EB1E168B5C6D003FF051</string>
+											<string>BF17EB1F168B5C6D003FF051</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,14 +359,22 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
+<<<<<<< HEAD
 								<string>{{0, 0}, {1178, 582}}</string>
+=======
+								<string>{{0, 0}, {1178, 587}}</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 								<key>RubberWindowFrame</key>
 								<string>4 55 1436 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
+<<<<<<< HEAD
 							<string>582pt</string>
+=======
+							<string>587pt</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -368,14 +387,22 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
+<<<<<<< HEAD
 								<string>{{0, 587}, {1178, 195}}</string>
+=======
+								<string>{{0, 592}, {1178, 190}}</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 								<key>RubberWindowFrame</key>
 								<string>4 55 1436 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
+<<<<<<< HEAD
 							<string>195pt</string>
+=======
+							<string>190pt</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -394,9 +421,15 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< HEAD
 				<string>BF9CA8D8168B5D110071D404</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>BF9CA8D9168B5D110071D404</string>
+=======
+				<string>BF17EB21168B5C6D003FF051</string>
+				<string>1CE0B1FE06471DED0097A5F4</string>
+				<string>BF17EB22168B5C6D003FF051</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -534,9 +567,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+<<<<<<< HEAD
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BFD2AE9F14AE904E002EB725</string>
 		<string>/data/of73/apps/horspistes2013/surtitre/surtitre.xcodeproj</string>
+=======
+		<string>BFD2AE9F14AE904E002EB725</string>
+		<string>/data/pngit/horspistes2013/surtitre/surtitre.xcodeproj</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1436 823 0 0 1440 878 </string>
@@ -616,7 +654,11 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BFD2AE9F14AE904E002EB725</string>
+<<<<<<< HEAD
 				<string>BF9CA8DA168B5D110071D404</string>
+=======
+				<string>BF17EB23168B5C6D003FF051</string>
+>>>>>>> 4b169d8d6392e62a0e291d047519c072a520f03b
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
