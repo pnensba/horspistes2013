@@ -7,6 +7,36 @@
 			sepNavVisRange = "{0, 1930}";
 		};
 	};
+	BF17EB1E168B5C6D003FF051 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF6397891683DC6D00D0E7EF /* testApp.h */;
+		name = "testApp.h: 10";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 0;
+	};
+	BF17EB1F168B5C6D003FF051 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF6397881683DC6D00D0E7EF /* testApp.cpp */;
+		name = "testApp.cpp: 37";
+		rLen = 0;
+		rLoc = 989;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 0;
+	};
+	BF17EB20168B5C6D003FF051 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF6397881683DC6D00D0E7EF /* testApp.cpp */;
+		name = "testApp.cpp: 37";
+		rLen = 0;
+		rLoc = 989;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 0;
+	};
 	BF6397871683DC6D00D0E7EF /* main.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1117, 560}}";
@@ -16,17 +46,17 @@
 	};
 	BF6397881683DC6D00D0E7EF /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {742, 1222}}";
-			sepNavSelRange = "{2245, 0}";
-			sepNavVisRange = "{452, 185}";
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 1196}}";
+			sepNavSelRange = "{989, 0}";
+			sepNavVisRange = "{0, 1108}";
 			sepNavWindowFrame = "{{42, 294}, {750, 558}}";
 		};
 	};
 	BF6397891683DC6D00D0E7EF /* testApp.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1117, 585}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 598}}";
 			sepNavSelRange = "{164, 0}";
-			sepNavVisRange = "{0, 845}";
+			sepNavVisRange = "{0, 852}";
 			sepNavWindowFrame = "{{19, 315}, {750, 558}}";
 		};
 	};
@@ -127,46 +157,6 @@
 		vrLen = 1539;
 		vrLoc = 0;
 	};
-	BF979935168666B100079A49 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = BF6397891683DC6D00D0E7EF /* testApp.h */;
-		name = "testApp.h: 10";
-		rLen = 0;
-		rLoc = 164;
-		rType = 0;
-		vrLen = 845;
-		vrLoc = 0;
-	};
-	BF97998B1686699D00079A49 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = BF8CC5A416792DE8000D2D4C /* ofxOscMessage.cpp */;
-		name = "ofxOscMessage.cpp: 47";
-		rLen = 0;
-		rLoc = 1723;
-		rType = 0;
-		vrLen = 690;
-		vrLoc = 1409;
-	};
-	BF97998C1686699D00079A49 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = BF6397881683DC6D00D0E7EF /* testApp.cpp */;
-		name = "testApp.cpp: 28";
-		rLen = 0;
-		rLoc = 777;
-		rType = 0;
-		vrLen = 1050;
-		vrLoc = 0;
-	};
-	BF979A481686823B00079A49 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = BF6397881683DC6D00D0E7EF /* testApp.cpp */;
-		name = "testApp.cpp: 37";
-		rLen = 0;
-		rLoc = 989;
-		rType = 0;
-		vrLen = 1013;
-		vrLoc = 409;
-	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Release;
 		activeExecutable = BF8CC5D616792DE9000D2D4C /* surtitre */;
@@ -223,17 +213,16 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 377905283;
-			PBXWorkspaceStateSaveDate = 377905283;
+			PBXPerProjectTemplateStateSaveDate = 378231865;
+			PBXWorkspaceStateSaveDate = 378231865;
 		};
 		perUserProjectItems = {
+			BF17EB1E168B5C6D003FF051 /* PBXTextBookmark */ = BF17EB1E168B5C6D003FF051 /* PBXTextBookmark */;
+			BF17EB1F168B5C6D003FF051 /* PBXTextBookmark */ = BF17EB1F168B5C6D003FF051 /* PBXTextBookmark */;
+			BF17EB20168B5C6D003FF051 /* PBXTextBookmark */ = BF17EB20168B5C6D003FF051 /* PBXTextBookmark */;
 			BF9799241686668400079A49 /* PBXTextBookmark */ = BF9799241686668400079A49 /* PBXTextBookmark */;
 			BF9799251686668400079A49 /* PBXTextBookmark */ = BF9799251686668400079A49 /* PBXTextBookmark */;
 			BF9799261686668400079A49 /* PBXTextBookmark */ = BF9799261686668400079A49 /* PBXTextBookmark */;
-			BF979935168666B100079A49 /* PBXTextBookmark */ = BF979935168666B100079A49 /* PBXTextBookmark */;
-			BF97998B1686699D00079A49 /* PBXTextBookmark */ = BF97998B1686699D00079A49 /* PBXTextBookmark */;
-			BF97998C1686699D00079A49 /* PBXTextBookmark */ = BF97998C1686699D00079A49 /* PBXTextBookmark */;
-			BF979A481686823B00079A49 /* PBXTextBookmark */ = BF979A481686823B00079A49 /* PBXTextBookmark */;
 		};
 		sourceControlManager = BF8CC5DA16792E07000D2D4C /* Source Control */;
 		userBuildSettings = {
