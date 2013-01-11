@@ -2,12 +2,9 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
+	ofSetDataPathRoot("../Resources/"); // pour osx, put arialbd.ttf in Resources
 	receiver.setup(PORT);
-	
-	// font.loadFont("../../src/font1550.ttf", 20, true);
-	font.loadFont("../../src/arialbd.ttf", 32, true);	
-	//font.loadFont("../../src/fenwick.ttf", 32, true);	
-
+	font.loadFont("arialbd.ttf", 24, true);	
 	mainOutputSyphonServer.setName("Screen Output");
 	//individualTextureSyphonServer.setName("Texture Output");	
 
