@@ -7,7 +7,7 @@ void testApp::setup(){
 	font.loadFont("arialbd.ttf", 24, true);	
 	mainOutputSyphonServer.setName("Screen Output");
 	ofSetFrameRate(10);
-	ofBackground(30);
+	ofBackground(0);
 }
 
 //--------------------------------------------------------------
