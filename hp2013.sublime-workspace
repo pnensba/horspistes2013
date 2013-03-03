@@ -28,18 +28,58 @@
 	"buffers":
 	[
 		{
-			"file": "surtitre/src/testApp.cpp",
+			"file": "/data/of73/apps/horspistes2013/gui_text_tk.py",
 			"settings":
 			{
-				"buffer_size": 2245,
+				"buffer_size": 3100,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "surtitre/src/testApp.h",
+			"file": "/data/of73/apps/horspistes2013/surtitre.py",
 			"settings":
 			{
-				"buffer_size": 860,
+				"buffer_size": 1298,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/of73/apps/horspistes2013/surtitre/src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/of73/apps/horspistes2013/surtitre/src/testApp.h",
+			"settings":
+			{
+				"buffer_size": 803,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/of73/apps/horspistes2013/surtitre/src/testApp.cpp",
+			"settings":
+			{
+				"buffer_size": 2116,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/of73/apps/horspistes2013/surtitre/src/utf8.h",
+			"settings":
+			{
+				"buffer_size": 2392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/of73/apps/horspistes2013/surtitre/src/utf8.c",
+			"settings":
+			{
+				"buffer_size": 12188,
 				"line_ending": "Unix"
 			}
 		}
@@ -50,6 +90,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"colo",
+				"Color picker"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -119,23 +167,15 @@
 				"Color picker"
 			],
 			[
-				"color",
-				"Color picker"
-			],
-			[
 				"Instal",
 				"Package Control: Install Package"
-			],
-			[
-				"colo",
-				"Color Picker: Insert Color"
 			],
 			[
 				"open",
 				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 404.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -152,17 +192,16 @@
 	},
 	"file_history":
 	[
-		"/data/pngit/horspistes2013/surtitre.py",
-		"/Users/vrx/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/data/pngit/horspistes2013/.gitignore",
+		"/data/of73/apps/horspistes2013/surtitre/surtitre.xcodeproj/project.pbxproj",
+		"/data/of73/apps/horspistes2013/surtitre/surtitre.xcodeproj/vincent.mode1v3",
+		"/data/of73/apps/horspistes2013/surtitre/surtitre.xcodeproj/vincent.pbxuser",
+		"/data/of73/apps/horspistes2013/hp2013.sublime-project",
+		"/Users/vincent/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/vincent/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/data/of73/apps/horspistes2013/surtitre/src/utf8.c",
-		"/data/of73/apps/horspistes2013/surtitre/src/testApp.cpp",
-		"/data/of73/apps/horspistes2013/surtitre/src/utf8.h",
-		"/data/of73/apps/horspistes2013/surtitre/src/testApp.h",
-		"/data/of73/apps/horspistes2013/surtitre/src/main.cpp",
-		"/data/of73/apps/horspistes2013/gui_text_tk.py",
-		"/data/of73/apps/horspistes2013/surtitre.py",
 		"/data/pngit/horspistes2013/gui_text_tk.py",
+		"/data/pngit/horspistes2013/surtitre.py",
+		"/data/pngit/horspistes2013/.gitignore",
 		"/data/git/esonoclaste/esonoclaste.sublime-project",
 		"/data/pngit/horspistes2013/hp2013.sublime-project",
 		"/data/vrx/ordi/bascule_vers_user.txt",
@@ -214,6 +253,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(){\n",
+			"\n	",
+			");\n",
 			"u8_esca",
 			"save",
 			"\\t\\t",
@@ -262,23 +304,103 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "surtitre/src/testApp.cpp",
+					"file": "/data/of73/apps/horspistes2013/gui_text_tk.py",
 					"settings":
 					{
-						"buffer_size": 2245,
+						"buffer_size": 3100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								573,
-								881
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/data/of73/apps/horspistes2013/surtitre.py",
+					"settings":
+					{
+						"buffer_size": 1298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/data/of73/apps/horspistes2013/surtitre/src/main.cpp",
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/data/of73/apps/horspistes2013/surtitre/src/testApp.h",
+					"settings":
+					{
+						"buffer_size": 803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								746,
+								746
 							]
 						],
 						"settings":
@@ -293,19 +415,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "surtitre/src/testApp.h",
+					"buffer": 4,
+					"file": "/data/of73/apps/horspistes2013/surtitre/src/testApp.cpp",
 					"settings":
 					{
-						"buffer_size": 860,
+						"buffer_size": 2116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								189,
-								206
+								0,
+								0
 							]
 						],
 						"settings":
@@ -314,7 +436,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/data/of73/apps/horspistes2013/surtitre/src/utf8.h",
+					"settings":
+					{
+						"buffer_size": 2392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/data/of73/apps/horspistes2013/surtitre/src/utf8.c",
+					"settings":
+					{
+						"buffer_size": 12188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10139,
+								10139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5862.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -381,7 +557,7 @@
 		[
 			[
 				"",
-				"/data/of73/apps/ofxvrx/esonoplayer/esonoplayer.sublime-project"
+				"/data/git/esonoclaste/esonoclaste.sublime-project"
 			]
 		],
 		"width": 380.0
